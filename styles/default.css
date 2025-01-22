@@ -12,13 +12,14 @@ main {
 }
 #header {
     display: flex;
-    justify-content: space-between;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
     padding: 30px;
     position: fixed;
-    width: 100%;
-    top: 0;
+    width: 50%;
+    top: 5px;
     z-index: 10;
+    color: rgb(86, 138, 235);
 }
 /* Format for the home page banner and picture that I am working on */
 #home {
