@@ -31,11 +31,11 @@ main {
     justify-content: center;
 }
 .photo {
-    width: 35vh;
+    width: 300px;
     height: auto;
     position: absolute;
-    top: 242px;
-    right: 10px;
+    top: 238px;
+    right: 100px;
     z-index: 1;
 }
 .logo {
