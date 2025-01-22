@@ -12,6 +12,31 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            background: linear-gradient(#c2d4ff, hsl(192, 67%, 83%), hsla(219, 50%, 51%, 0.725));
+        }
+        .photo {
+            width: 35vh;
+            height: auto;
+            position: absolute;
+            top: 158px;
+            right: 100px;
+            z-index: 1;
+        }
+        .rectangle {
+            height: 300px;
+            width: 70%;
+            border: solid #298cfe 4px;
+            z-index: 2;
+            position: absolute;
+        }
+        .rectangle2 {
+            height: 300px;
+            width: 70%;
+            border: solid #1ba5cf 4px;
+            z-index: 2;
+            position: absolute;
+            top: 150px;
+            right: 100px;
         }
 
     </style>
@@ -19,11 +44,11 @@
 <body>
     <header>
     </header>
-
     <div class="banner">
     </div>
     <img class="photo" src="images/bobr.png" alt="Author Photo"/>
-
+    <div class="rectangle"></div>
+    <div class="rectangle2"></div>
     <footer>
 
     </footer>
