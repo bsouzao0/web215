@@ -111,12 +111,14 @@ a {
 figure {
   text-align: center;
   font-style: italic;
+  float: left;
 }
 figure img {
   max-width: 400px;
   height: auto;
   align-items: center;
 }
+
 footer {
 
   display: block;
