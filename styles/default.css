@@ -35,7 +35,7 @@ main {
     position: absolute;
     top: 238px;
     right: 100px;
-    z-index: ;
+    z-index: 1;
 }
 .logo {
     width: 50vh;
