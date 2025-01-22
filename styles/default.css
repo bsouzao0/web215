@@ -1,0 +1,70 @@
+
+body {
+    background: linear-gradient(#c2d4ff, hsl(192, 67%, 83%), hsla(219, 75%, 36%, 0.725));;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 100px;
+    margin: 60px auto;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+/* Format for the home page banner and picture that I am working on */
+#home {
+    height: 100vh;
+    width: 100vh;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.photo {
+    width: 35vh;
+    height: auto;
+    position: absolute;
+    top: 242px;
+    right: 10px;
+    z-index: 1;
+}
+.logo {
+    width: 50vh;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    z-index: 4;
+
+}
+.rectangle {
+    height: 400px;
+    width: 700px;
+    border: solid #298cfe 4px;
+    z-index: 2;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+.rectangle2 {
+    height: 400px;
+    width: 700px;
+    border: solid #1ba5cf 4px;
+    z-index: 3;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    transform: rotate(-5deg);
+}
+
+
