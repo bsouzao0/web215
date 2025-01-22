@@ -4,30 +4,36 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Bellefair", serif;
+    font-size: x-large;
 }
 
 main {
     padding: 100px;
     margin: 60px auto;
-    color:#034672
+    color:#034672;
 }
-#header {
+section #header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     position: fixed;
-    width: 50%;
-    top: 30px;
+    width: 75%;
+    top: 20px;
     z-index: 10;
     color: #568aeb;
 }
+
 h1 {
-  font-family: Comfortaa, sans-serif;
+  font-family: "Comfortaa", serif;
+  font-size: xx-large;
 }
 
+
 h2 {
+  font-family: "Comfortaa", serif;
+  font-size: x-large;
   color:#1ba5cf;
-  font-family: Comfortaa, sans-serif;
 }
 
 
