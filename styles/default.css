@@ -44,15 +44,22 @@ header nav {
   position: fixed;
   top: 50px;
   left: 0;
+  
 }
 
 nav ul {
   list-style-type: none;
   display: flex;
+  
+  
 }
 
 nav li {
   margin: 20px;
+}
+
+a { 
+  text-decoration: none;
 }
 
 /* Format for the home page banner and picture that I am working on */
@@ -112,7 +119,7 @@ figure img {
 }
 footer {
 
-  display: flex;
+  display: block;
   padding: 30px;
   margin-left: 150px;
   position: relative;
