@@ -68,10 +68,11 @@ a {
 
 .text {
   top: 25vh;
-  left: 20vh;
+  left: 25vh;
   position: relative;
   text-align: left;
-  width: 60vh;
+  width: 70vh;
+  height: 35vh;
 }
 
 .ilustration {
@@ -83,10 +84,10 @@ a {
 }
 
 .photo {
-    width: 40vh;
+    width: 52vh;
     height: auto;
-    top: -20vh;
-    right: -65vh;
+    top: -16.7vh;
+    left: 82vh;
     z-index: 0;
     position:relative;
 }
@@ -100,22 +101,22 @@ a {
 
 }
 .rectangle {
-    height: 50vh;
-    width: 100vh;
+    height: 70vh;
+    width: 120vh;
     border: solid #298cfe 4px;
     z-index: 2;
     top: -15vh;
-    right: -70vh;
+    left: 10vh;
     position: absolute;
 }
 
 .rectangle2 {
-    height: 50vh;
-    width: 100vh;
+  height: 70vh;
+  width: 120vh;
     border: solid #1ba5cf 4px;
     z-index: 3;
     top: -15vh;
-    right: -70vh;
+    left: 10vh;
     transform: rotate(-5deg);
     position: absolute;
 }
