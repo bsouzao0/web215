@@ -73,6 +73,7 @@ a {
   text-align: left;
   width: 70vh;
   height: 35vh;
+  z-index: 6;
 }
 
 .ilustration {
