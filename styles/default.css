@@ -73,7 +73,7 @@ a {
   top: 30vh;
   position: relative;
   text-align: left;
-  width: 80vh;
+  width: 50%;
   height: 35vh;
   z-index: 6;
   left: 10vh;
@@ -84,10 +84,10 @@ a {
 }
 
 .photo {
-    width: 50vh;
+    width: 40vh;
     height: auto;
     top: -14.5vh;
-    left: 82vh;
+    left: 60vh;
     z-index: 0;
     position: relative;
     align-items: right;
