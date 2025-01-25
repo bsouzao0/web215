@@ -176,17 +176,35 @@ footer nav ul li {
 }
 
 @media only screen and (max-width: 768px) {
-  #header {
-    flex-direction: column;
-    align-items: center;
+
+  body {
+    overflow: scroll;
   }
 
-.text {
+  #header{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    padding: 0;
+  }
+
+  #header nav ul {
+    flex-direction: column;
+  }
+
+  .text {
+  top: 0;
   display: flex;
-  flex-direction: column;
-  width: auto;
   height: 100%;
   align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
 }
 
 main {
