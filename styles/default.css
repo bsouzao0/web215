@@ -84,13 +84,10 @@ a {
 }
 
 .photo {
-    width: 40vh;
-    height: auto;
-    top: -14.5vh;
-    left: 60vh;
     z-index: 0;
+    top: -14.2vh;
     position: relative;
-    align-items: right;
+    right: -56vh;
 }
 /* Thinking about it
 .logo {
