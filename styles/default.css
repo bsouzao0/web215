@@ -152,10 +152,10 @@ footer nav ul li {
 @media only screen and (min-width: 768px) {
     #header {
       margin: 10px;
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
     }
-    #home, #introduction, #contract {
+    main {
     min-width:  300px;
   }
     #header nav li a {
@@ -176,8 +176,6 @@ footer nav ul li {
 
 @media only screen and (max-width: 768px) {
   #header {
-    margin: 10px;
-    display: flex;
     flex-direction: column;
     align-items: center;
   }
@@ -185,27 +183,39 @@ footer nav ul li {
 .text {
   display: flex;
   flex-direction: column;
-  position: relative;
-  width: 100%;
+  width: auto;
   height: 100%;
   align-items: center;
 }
 
-#home, #introduction, #contract {
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-  
+}
+
+#introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+#contract {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 figure {
-  text-align: center;
-  font-style: italic;
-  width: 100%;
-  height: auto;
-  float: none;
-  
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 100%;
+  align-items: center;
 }
 
 .ilustration {
