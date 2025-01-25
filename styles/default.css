@@ -1,6 +1,9 @@
 
+* {
+  box-sizing: border-box;
+}
 body {
-    background: linear-gradient(#c2d4ff, hsl(192, 67%, 83%), hsla(219, 75%, 36%, 0.725));
+    background: linear-gradient(#c2d4ff, #b7e5f1, #1747a1b9);
     font-family: "Bellefair", serif;
     font-size: x-large;
     max-width: 960px;
@@ -42,16 +45,18 @@ h2 {
   
 }
 
-nav ul {
+header nav ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
 }
 
-nav li {
-  margin: 20px;
+header nav ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  background-color: #1ba5cf;
+  
 }
 
 a { 
@@ -134,19 +139,22 @@ figure img {
 }
 
 footer {
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  display: block;
   text-align: center;
+  
 }
 
 footer nav ul {
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  
 }
 footer nav ul li {
   margin: 0;
-
+  padding: 10px;
+  
 }
 
 
