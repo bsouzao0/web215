@@ -67,36 +67,32 @@ a {
 
 #home {
   display: block;
-  width: 50vh;
-  
 }
 
 .text {
-  top: 40vh;
-  left: 25vh;
+  top: 30vh;
   position: relative;
   text-align: left;
-  width: 70vh;
+  width: 80vh;
   height: 35vh;
   z-index: 6;
+  left: 10vh;
 }
 
 .ilustration {
-  margin: 0 auto;
   position: relative;
-  justify-content: center;
-  text-align: center;
-  width: 30vh;
 }
 
 .photo {
-    width: 52vh;
+    width: 50vh;
     height: auto;
-    top: -16.7vh;
+    top: -14.5vh;
     left: 82vh;
     z-index: 0;
-    position:relative;
+    position: relative;
+    align-items: right;
 }
+/* Thinking about it
 .logo {
     width: 50vh;
     height: auto;
@@ -104,25 +100,23 @@ a {
     top: 10px;
     left: 20px;
     z-index: 4;
-
 }
+    */
 .rectangle {
-    height: 70vh;
-    width: 120vh;
+    height: 100%;
+    width: 95%;
     border: solid #298cfe 4px;
     z-index: 2;
     top: -15vh;
-    left: 10vh;
     position: absolute;
 }
 
 .rectangle2 {
-  height: 70vh;
-  width: 120vh;
+    height: 100%;
+    width: 95%;
     border: solid #1ba5cf 4px;
     z-index: 3;
     top: -15vh;
-    left: 10vh;
     transform: rotate(-5deg);
     position: absolute;
 }
