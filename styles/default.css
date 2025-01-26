@@ -100,15 +100,17 @@ a {
 }
     */
 .rectangle {
+    box-sizing: border-box;
     height: 100%;
     width: 95%;
-    border: solid #298cfe 4px;
+    border: 4px solid #298cfe; 
     z-index: 2;
     top: -15vh;
     position: absolute;
 }
 
 .rectangle2 {
+    box-sizing: border-box;
     height: 100%;
     width: 95%;
     border: solid #1ba5cf 4px;
