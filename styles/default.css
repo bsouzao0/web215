@@ -1,7 +1,6 @@
 
-* {
-  box-sizing: border-box;
-}
+@charset "utf-8";
+
 body {
     background: linear-gradient(#c2d4ff, #b7e5f1, #1747a1b9);
     font-family: "Bellefair", serif;
