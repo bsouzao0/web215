@@ -191,21 +191,22 @@ footer nav ul li {
     flex-direction: column;
   }
 
-  main {
+  #introduction, #contract {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   
   .text {
   top: 0;
   display: flex;
   flex-direction: column;
+  align-items: center;
   height: 100%;
   width: 100%;
 }
-
-
 
 figure {
   display: flex;
