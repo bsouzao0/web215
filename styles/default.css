@@ -151,7 +151,7 @@ footer nav ul li {
 
 /* I am stil trying to find the right fit */
 @media only screen and (min-width: 768px) {
-    #header {
+    header {
       margin: 10px;
       flex-direction: row;
       align-items: center;
@@ -159,7 +159,7 @@ footer nav ul li {
     main {
     min-width:  300px;
   }
-    #header nav li a {
+    header nav li a {
       font-size: 1.5rem;
       width: 200px;
     }
@@ -174,7 +174,7 @@ footer nav ul li {
 @media only screen and (max-width: 768px) {
 
 
-  #header{
+  header{
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -183,7 +183,7 @@ footer nav ul li {
 
   }
 
-  #header nav ul {
+  header nav ul {
     flex-direction: column;
   }
 
@@ -215,7 +215,7 @@ figure {
   display: none;
 }
 
-#header nav ul li a {
+header nav ul li a {
     display: flex;
     font-size: 1.5rem;
     flex-direction: column;
