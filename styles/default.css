@@ -63,7 +63,7 @@ a {
 /* Format for the home page banner and picture that I am working on */
 
 #home {
-  height: 110vh;
+  height: 100vh;
   position: relative;
   align-content: center;
   display: block;
