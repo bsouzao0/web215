@@ -24,12 +24,14 @@ header {
     display: flex;
     justify-content: space-evenly;
     position: fixed;
-    width: 75%;
-    height: auto;;
+    width: 100%;
+    height: auto;
     top: 30px;
+    left: 0;
     z-index: 10;
     color: #568aeb;
     text-align: center;
+    background-color: #9db7f4;
 }
 
 h1 {
@@ -43,18 +45,20 @@ h2 {
   color:#1ba5cf;
 }
 
+
 header nav ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
   font-weight: bold;
+  
 }
 
 header nav ul li {
   list-style-type: none;
   margin: 0;
   padding: 10px;
-  background-color: #1ba5cf;
+  background-color: #c2d4ff;
 }
 
 a { 
@@ -132,6 +136,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  
 }
 
 footer nav ul {
