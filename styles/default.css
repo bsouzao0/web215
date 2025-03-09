@@ -63,7 +63,7 @@ a {
 /* Format for the home page banner and picture that I am working on */
 
 #home {
-  height: 100vh;
+  height: 110vh;
   position: relative;
   align-content: center;
   display: block;
@@ -82,7 +82,7 @@ a {
 .photo {
     z-index: 3;
     bottom: 5vh;
-    left: 55%;
+    left: 45%;
     position: absolute;
 }
 
@@ -124,8 +124,6 @@ figure {
 }
 
 figure img {
-  max-width: 400px;
-  height: auto;
   align-items: center;
 }
 
