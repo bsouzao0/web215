@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-    background: linear-gradient(#c2d4ff, #b7e5f1, #1747a1b9);
+    background: linear-gradient(#c2d4ff, #b7e5f1, #6ee2e4b9);
     font-family: "Bellefair", serif;
     font-size: x-large;
     max-width: 960px;
@@ -11,7 +11,7 @@ body {
 }
 
 main {
-    color:#034672;
+    color:#266086;
     padding: 0;
     margin: 0;
 }
@@ -47,6 +47,7 @@ header nav ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
+  font-weight: bold;
 }
 
 header nav ul li {
