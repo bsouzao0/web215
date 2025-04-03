@@ -45,7 +45,6 @@ h2 {
   color:#1ba5cf;
 }
 
-
 header nav ul {
   list-style-type: none;
   display: flex;
@@ -63,11 +62,18 @@ header nav ul li {
 
 a { 
   text-decoration: none;
+  color: #5e5496;
+}
+
+a:visited {
+  text-decoration: none;
 }
 
 /* Format for the home page banner and picture that I am working on */
 
 #home {
+  margin: 0;
+  padding: 0;
   height: 110vh;
   position: relative;
   align-content: center;
