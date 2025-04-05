@@ -2,7 +2,7 @@ function pageSection(sectionId) {
     const sections = ['home', 'introduction', 'contract'];
     
     sections.forEach((id) => {
-        document.getElementById(id).style.display = 'block'; //If I wanna hide the sections I should put 'none' instead of 'block
+        document.getElementById(id).style.display = 'none'; //If I wanna show the sections I should put 'block' instead of 'none'
     });
 
     const activeSection = document.getElementById(sectionId);
