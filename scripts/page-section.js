@@ -35,9 +35,13 @@ function pageSection(sectionId) {
 
 window.onload = () => {
     loadComponents();
+    const hash = window.location.hash.substring(1);
+    if (['home', 'introduction', 'contract'].includes(hash)) {
+        pageSection(hash);
+    } else {
+        pageSection('home');
+    }
     
-    pageSection('home');
-
     ['home', 'introduction', 'contract'].forEach((section) => {
         document.getElementById(`${section}-btn`).addEventListener('click', (event) => {
             event.preventDefault(); 
