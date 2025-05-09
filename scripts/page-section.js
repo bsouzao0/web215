@@ -1,3 +1,18 @@
+function loadComponents () {
+    fetch('components/header.html')
+        .then((response) => response.text())
+        .then((data) => {
+            document.getElementById('site-header').innerHTML = data;
+            attachNavEvents();
+        });
+
+    fetch('components/footer.html')
+        .then((response) => response.text())
+        .then((data) => {
+            document.getElementById('site-footer').innerHTML = data;
+        });
+}
+
 function pageSection(sectionId) {
     const sections = ['home', 'introduction', 'contract'];
     
@@ -19,10 +34,10 @@ function pageSection(sectionId) {
 
 
 window.onload = () => {
+    loadComponents();
     
     pageSection('home');
 
-    
     ['home', 'introduction', 'contract'].forEach((section) => {
         document.getElementById(`${section}-btn`).addEventListener('click', (event) => {
             event.preventDefault(); 
