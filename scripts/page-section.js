@@ -1,6 +1,6 @@
 function pageSection(sectionId) {
     const sections = ['home', 'introduction', 'contract', 'brand'];
-    
+
     sections.forEach((id) => {
         const el = document.getElementById(id);
         if (el) el.style.display = 'none';
