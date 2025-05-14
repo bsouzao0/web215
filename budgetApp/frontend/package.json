@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "private": true,
+  "public": true,
   "homepage": "https://bsouzao0.github.io/web215/budgetApp/frontend/public/index.html",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
