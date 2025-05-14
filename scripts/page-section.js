@@ -27,12 +27,11 @@ function pageSection(sectionId) {
         home: 'Home',
         introduction: 'Introduction',
         contract: 'Contract',
-        brand: 'Brand',
+        brand: 'Brand'
     };
 
     document.title = `Brenda Oliveira's Blue Orchid « WEB215 » ${sectionTitles[sectionId]}`;
 }
-
 
 window.onload = () => {
     loadComponents();
