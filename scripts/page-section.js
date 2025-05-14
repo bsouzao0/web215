@@ -1,5 +1,25 @@
-function loadComponents () {
+function pageSection(sectionId) {
+    const sections = ['home', 'introduction', 'contract', 'brand'];
+    
+    sections.forEach((id) => {
+        const el = document.getElementById(id);
+        if (el) el.style.display = 'none';
+    });
 
+    const activeSection = document.getElementById(sectionId);
+    if (activeSection) activeSection.style.display = 'block';
+
+    const sectionTitles = {
+        home: 'Home',
+        introduction: 'Introduction',
+        contract: 'Contract',
+        brand: 'Brand'
+    };
+
+    document.title = `Brenda Oliveira's Blue Orchid « WEB215 » ${sectionTitles[sectionId] || ''}`;
+}
+
+function loadComponents() {
     fetch('components/header.html')
         .then((response) => response.text())
         .then((data) => {
@@ -17,7 +37,6 @@ function loadComponents () {
             });
         });
 
-  
     fetch('components/footer.html')
         .then((response) => response.text())
         .then((data) => {
@@ -25,31 +44,12 @@ function loadComponents () {
         });
 }
 
-function pageSection(sectionId) {
-    const sections = ['home', 'introduction', 'contract', 'brand'];
-
-    sections.forEach((id) => {
-        const el = document.getElementById(id);
-        if (el) {
-            el.style.display = (id === sectionId) ? 'block' : 'none';
-        }
-    });
-
-    const sectionTitles = {
-        home: 'Home',
-        introduction: 'Introduction',
-        contract: 'Contract',
-        brand: 'Brand'
-    };
-
-    document.title = `Brenda Oliveira's Blue Orchid « WEB215 » ${sectionTitles[sectionId]}`;
-}
-
 window.onload = () => {
     loadComponents();
-
-  
     const hash = window.location.hash.substring(1);
-    const validSection = ['home', 'introduction', 'contract', 'brand'].includes(hash) ? hash : 'home';
-    pageSection(validSection);
+    if (['home', 'introduction', 'contract', 'brand'].includes(hash)) {
+        pageSection(hash);
+    } else {
+        pageSection('home');
+    }
 };
