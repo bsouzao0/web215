@@ -17,7 +17,7 @@ function pageSection(sectionId) {
     const sections = ['home', 'introduction', 'contract', 'brand'];
     
     sections.forEach((id) => {
-        document.getElementById(id).style.display = 'none'; //If I wanna show the sections I should put 'block' instead of 'none'
+        document.getElementById(id).style.display = 'none';
     });
 
     const activeSection = document.getElementById(sectionId);
@@ -43,7 +43,7 @@ window.onload = () => {
         pageSection('home');
     }
     
-    ['home', 'introduction', 'contract'].forEach((section) => {
+    ['home', 'introduction', 'contract', 'brand'].forEach((section) => {
         document.getElementById(`${section}-btn`).addEventListener('click', (event) => {
             event.preventDefault(); 
             pageSection(section); 
