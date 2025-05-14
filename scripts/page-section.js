@@ -14,7 +14,7 @@ function loadComponents () {
 }
 
 function pageSection(sectionId) {
-    const sections = ['home', 'introduction', 'contract'];
+    const sections = ['home', 'introduction', 'contract', 'brand'];
     
     sections.forEach((id) => {
         document.getElementById(id).style.display = 'none'; //If I wanna show the sections I should put 'block' instead of 'none'
@@ -26,7 +26,8 @@ function pageSection(sectionId) {
     const sectionTitles = {
         home: 'Home',
         introduction: 'Introduction',
-        contract: 'Contract'
+        contract: 'Contract',
+        brand: 'Brand'
     };
 
     document.title = `Brenda Oliveira's Blue Orchid « WEB215 » ${sectionTitles[sectionId]}`;
@@ -36,7 +37,7 @@ function pageSection(sectionId) {
 window.onload = () => {
     loadComponents();
     const hash = window.location.hash.substring(1);
-    if (['home', 'introduction', 'contract'].includes(hash)) {
+    if (['home', 'introduction', 'contract', 'brand'].includes(hash)) {
         pageSection(hash);
     } else {
         pageSection('home');
