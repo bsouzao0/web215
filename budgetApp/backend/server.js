@@ -10,6 +10,10 @@ app.use(cors({
   allowedHeaders: ["Content-Type", "Authorization"]  
 }));
 
+const PORT=process.env.PORT || 5000
+
+const allowedOrigins = ["http://localhost:3000/", "https://vite-react-six-gamma-66.vercel.app"];
+
 app.use(express.json());
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/transactions', require('./routes/transactions'));
