@@ -17,11 +17,13 @@ export default function Dashboard() {
   }, []);
 
   return (
-    <div>
-      <h1>Dashboard</h1>
+  <main>
+    <section>
+      <h2>Dashboard</h2>
       <TransactionForm onAdd={getData} />
       <TransactionList transactions={transactions} onDelete={getData} />
       <ExpenseChart transactions={transactions} />
-    </div>
-  );
+    </section>
+  </main>
+);
 }
