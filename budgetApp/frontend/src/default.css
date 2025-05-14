@@ -180,6 +180,51 @@ footer a {
   text-decoration: none;
 }
 
+/* Login.css */
+
+.login-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+}
+
+.login-form {
+  background-color: #ffffffcc;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 1rem;
+  text-align: center;
+}
+
+.login-form input {
+  padding: 0.6rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.login-form button {
+  padding: 0.6rem;
+  font-size: 1rem;
+  background-color: #5e5496;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.login-form h2 {
+  font-family: 'Comfortaa', sans-serif;
+  color: #375791;
+}
+
+
 
 /* I am stil trying to find the right fit */
 
